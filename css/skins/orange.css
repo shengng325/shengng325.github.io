@@ -1,0 +1,59 @@
+span{
+    color: #fa5b0f !important;
+}
+
+.aside .logo a::before{
+    border-top: 4px solid #fa5b0f;
+    border-left: 4px solid #fa5b0f;
+}
+
+.aside .logo a::after{
+    border-right: 4px solid #fa5b0f;
+    border-bottom: 4px solid #fa5b0f;
+}
+
+.aside .nav li a:hover, 
+body.dark .aside .nav li a:hover,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.contact .contact-info-item .icon .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.experiences .about-text h3 span,
+.achievements .about-text h3 span,
+.portfolio .portfolio-filter button.active,
+body.dark .portfolio .portfolio-filter button.active,
+.service .service-item .service-item-inner .icon .fa,
+#portfolio .all-projects .card-buttons .fa,
+.achievements .achievements-timeline .fa,
+body.dark .aside .nav li a.active,
+.aside .nav li a.active{
+    color: #fa5b0f;
+}
+
+.btn,
+.service .service-item .service-item-inner:hover .icon,
+.experiences .timeline .circle-dot,
+.achievements .timeline .circle-dot,
+.blog .blog-item-inner .blog-img .blog-date,
+.experiences .skills .skill-item .progress .progress-in,
+.achievements .skills .skill-item .progress .progress-in,
+.experiences .timeline-item::before,
+.achievements .timeline-item::before,
+.aside .nav-toggler span,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+#portfolio .all-projects .card-button:hover,
+.home .intro .social-links a{
+    background-color: #fa5b0f;
+}
+
+.portfolio .portfolio-filter button.active{
+    border-color: #fa5b0f;
+}
+
+.achievements .timeline .timeline-title .fa:hover{
+    text-shadow: 0px 0px 50px rgba(236,24,57,1);
+}
