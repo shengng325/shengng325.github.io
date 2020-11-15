@@ -873,6 +873,9 @@ select {
     font-size: 18px;
     font-weight: 900;
     transition: font-weight 0.8s, margin-left 0.8s;
+    webkit-transition: font-weight 0.8s, margin-left 0.8s;
+    -moz-transition: font-weight 0.8s, margin-left 0.8s;
+    -o-transition: font-weight 0.8s, margin-left 0.8s;
 }
 
 
@@ -890,6 +893,9 @@ select {
     margin-left: 10px;
     font-size: 18px;
     transition: font-size 0.8s;
+    webkit-transition: font-size 0.8s;
+    -moz-transition: font-size 0.8s;
+    -o-transition:font-size 0.8s;
 }
 
 /* .achievements .timeline .timeline-title a:hover{
@@ -1056,6 +1062,9 @@ select {
 .contact .contact-info-item .icon .fa {
     font-size: 40px;
     transition: font-size 0.5s;
+    webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+    -o-transition:font-size 0.5s;
 }
 
 .contact .contact-info-item h4 {
@@ -1065,6 +1074,9 @@ select {
     text-transform: capitalize;
     margin: 15px 0 5px;
     transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
 }
 
 .contact .contact-info-item p {
