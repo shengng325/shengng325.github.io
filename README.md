@@ -5,6 +5,6 @@ Built with pure HTML, CSS and JavaScript.
 
 ## Live
 
-Check it out at: [http://ngtingsheng.com](http://ngtingsheng.com "http://ngtingsheng.com")
+Check it out at: <a href="https://ngtingsheng.com/" target="_blank">https://ngtingsheng.com/</a>
 
-Backup: [https://shengng325.github.io/](https://shengng325.github.io/ "https://shengng325.github.io/")
+Backup: <a href="https://shengng325.github.io/" target="_blank">https://shengng325.github.io/</a> 
