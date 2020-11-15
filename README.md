@@ -5,5 +5,6 @@ Built with pure HTML, CSS and JavaScript.
 
 ## Live
 
-link<br>
-Backup:
+Check it out at: [http://ngtingsheng.com](http://ngtingsheng.com "http://ngtingsheng.com")
+
+Backup: [https://shengng325.github.io/](https://shengng325.github.io/ "https://shengng325.github.io/")
