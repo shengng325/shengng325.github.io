@@ -862,7 +862,6 @@ select {
 }
 
 .achievements .timeline .timeline-title {
-    font-weight: 700;
     font-size: 18px;
     margin-bottom: 15px;
     text-transform: capitalize;
@@ -871,12 +870,31 @@ select {
 }
 
 .achievements .timeline .timeline-title a{
-    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    transition: font-weight 0.8s, margin-left 0.8s;
 }
 
+
 .achievements .timeline .timeline-title a:hover{
-    margin-left: 10px;
+    font-weight: 100;
+    margin-left: 15px;
 }
+
+.achievements .timeline .timeline-title a:hover i{
+    font-size: 22px;
+}
+
+
+.achievements .timeline .timeline-title i{
+    margin-left: 10px;
+    font-size: 18px;
+    transition: font-size 0.8s;
+}
+
+/* .achievements .timeline .timeline-title a:hover{
+    margin-left: 10px;
+} */
 
 /* .achievements .timeline .timeline-title .fa:hover{
     text-shadow: 0px 0px 19px rgba(0,0,0,0.5);
@@ -1023,12 +1041,21 @@ select {
     padding: 50px 0px;
 }
 
+.contact .contact-info-item:hover .icon .fa {
+    font-size: 50px;
+}
+
+.contact .contact-info-item:hover h4 {
+    font-size: 22px;
+}
+
 .contact .contact-info-item .icon {
     display: inline-block;
 }
 
 .contact .contact-info-item .icon .fa {
     font-size: 40px;
+    transition: font-size 0.5s;
 }
 
 .contact .contact-info-item h4 {
@@ -1037,6 +1064,7 @@ select {
     color: #302e4d;
     text-transform: capitalize;
     margin: 15px 0 5px;
+    transition: font-size 0.5s;
 }
 
 .contact .contact-info-item p {
