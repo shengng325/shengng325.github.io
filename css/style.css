@@ -600,6 +600,11 @@ select {
 
 #about .about-content .all-skills .card .card-title .icon {
     font-size: 25px;
+    transition: font-size 0.5s;
+}
+
+#about .about-content .all-skills .card:hover .icon{
+    font-size: 27px;
 }
 
 #about .about-content .all-skills .card .card-title h1 {

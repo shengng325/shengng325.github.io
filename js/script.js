@@ -4,6 +4,9 @@ window.addEventListener('load', function() {
     setTimeout(function(){
         document.querySelector('.preloader').style.display = 'none';
     }, 1000);
+    setTimeout(() => {
+        document.querySelector('.style-switcher').classList.remove('open');
+    }, 3000);
 });
 
 // iTyped 
